@@ -8,8 +8,6 @@ This program implements a simple microprocessor inspired from a programming assi
 
 It takes input of a sequence of serial instructions in mnemonic form and processess it to opcode format. This opcode is then run step by step performing the instructions.
 
-#Simulated Architecture::
-
 1> The Opcode is a 4 digit integer. The first two represent the actual Opcode/instruction and the next two are the location index (0 to 99).
 2> The program supports 19 instructions currently and can be extended to support 99 instructions.
 3> The program can handle a maximum of 100 lines of commands/instructions.
